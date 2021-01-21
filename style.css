@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	background-color: silver;
+}
+.body{
+	width:40%;
+	background-color: white;
+	margin-top: 2rem;
+	padding-bottom: 2%;
+	box-sizing: border-box;
+	float: right;
+	margin-right: 22%;
+	margin-bottom: 2rem;
+}
+.image{
+	width: 17%;
+	background-color: #338;
+	margin-top: 2rem;
+	padding-bottom: 5.3%;
+	float: left;
+	margin-left: 17.5rem;
+}
+.image img{
+	width: 60%;
+	border-radius: 50%;
+	margin-left:2.7rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.body h1{
+	margin-top: 5rem;
+	margin-left: 10rem;
+	font-size: 2.3rem;
+	font-family: cursive;
+	font-style: bold;
+}
+.body p{
+	margin-left: 9.5rem;	
+	font-family: sans-serif;
+	margin-top: 0.2rem;
+
+}
+.image h2{
+	background-color: white;
+	font-size: 1.2rem;
+	text-align: center;
+}
+.body table{
+	margin-left: 1rem;
+	font-size: 1.2rem;
+	
+}
+.body tr td{
+	padding:0 1rem;
+
+}
+.carrer{
+	margin-left: 2rem;
+	font-size: 1.2rem;
+}
+.experience{
+	margin-left: 2rem;
+	font-size: 1.2rem;
+}
+.education{
+	margin-left: 2rem;
+	font-size: 1.2rem;
+}
+.skills{
+	margin-left: 2rem;
+	font-size: 1.2rem;
+}
+.hobby{
+	margin-left: 2rem;
+	font-size: 1.2rem;
+}
+.references{
+	margin-left: 2rem;
+	font-size: 1.2rem;
+}
+
+
+
+
+/*RESPONSIVE CODE*/
+
+@media(max-width: 998px){
+	html{
+		font-size: 55%;
+	}
+}
+
+@media(max-width: 768px) {
+
+	html{
+		font-size: 45%;
+	}
+}
+
+@media(max-width: 650px) {
+
+	html{
+		font-size: 35%;
+	}
+}
+@media(max-width: 360px) {
+
+	html{
+		font-size: 25%;
+
